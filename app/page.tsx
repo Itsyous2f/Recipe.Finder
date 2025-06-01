@@ -23,7 +23,7 @@ export default function Home() {
     try {
       let response = await fetch(api_url, {
         headers: {
-          "X-Api-Key": apiKey || "KuNkydHtao/RkJplgW+XcA==XVrmgkpNJBeLX53o",
+          "X-Api-Key": apiKey || "",
         },
       });
 
